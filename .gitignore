@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# NOAA FIM raw source data (252MB, re-downloadable from NOAA)
+# Download URL: https://water.noaa.gov/resources/downloads/fim/btv/monv1/shapefile/monv1_shapefiles.zip
+noaa_fim/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Temporary raster files
+outputs/tmp_*.tif
